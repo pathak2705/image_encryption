@@ -18,11 +18,11 @@ Encryption technique used-
  
  HILL CIPHER:-
 
- step 1: Converts uploaded image into a 250x250 monochrome image.
- step 2: Generates a random matrix called 'key' of same size of the input image.
- step 3: Multiplies both matrices to for encrypted image.
- step 4: Compute inverse of key matrix.
- step 5: Multiply this inverse with result of step 3 and the result will be your original image.
+ 1: Converts uploaded image into a 250x250 monochrome image.
+ 2: Generates a random matrix called 'key' of same size of the input image.
+ 3: Multiplies both matrices to for encrypted image.
+ 4: Compute inverse of key matrix.
+ 5: Multiply this inverse with result of step 3 and the result will be your original image.
 
 Client-Server interaction:
  
